@@ -6,7 +6,8 @@ Automatic Birthday Wisher
 - Now you have to install a few Module which will help this program to run,
   such as pandas, openpyxl etc. We will type the following in terminal/CMD to install the modules.
 
-$> “pip install pandas”.
+$> “pip install pandas”
+
 $> “pip install openpyxl”
 
 - Now we will create an excel sheet on that folder and open it. We will add the following rows, such as S.No., Name, Birthday, Message, Year, Email. then we have to create a function which will read the excel file and extract data from it. After that will have to use the pandas library for it & for email we have to use the smtplib library.
